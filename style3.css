@@ -1,0 +1,186 @@
+.m1 {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(imagenes/wp0004.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.m1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.m1 > * {
+    position: relative;
+    z-index: 2; 
+}
+
+.m2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.m2 h1, .m1 h2{
+    color: var(--blanco);
+}
+.m2 h1{
+    font-size: 5rem;
+}
+.m3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+    text-align: center;
+}
+.m4{
+    font-size: 4rem;
+}
+.m5 {
+    width: 0;
+    height: 0;
+    margin: 50px;
+    position: relative;
+    display: flex;
+    color: var(--verde3);
+}
+
+.m5::before, .m5::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2rem;
+    width: 100px;
+    height: 100px;
+    background: var(--verde3);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.m6{
+    display: flex;
+    justify-content: center;
+}
+.m7{
+    display: flex;
+
+    height: 80vh;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+.m8{
+    display: flex;
+    flex-direction: row;
+}
+.m9{
+    width: 20vw;
+    height: 30vh;
+
+    background-image: url(imagenes/mangofresa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m10{
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+}
+.m11{
+    display: flex;
+    flex-direction: row;
+
+    padding-bottom: 5px;
+}
+.m12{
+    padding-right: 10px;
+}
+.m13{
+    width: 20vw;
+    height: 30vh;
+
+    background-image: url(imagenes/higoscacao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.m14{
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 25px;
+}
+.m15{
+    width: 30vw;
+    height: 40vh;
+
+    background-image: url(imagenes/maracuya.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.m16{
+    padding-right: 10px;
+}
+.m17{
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 5px;
+}
+.m18{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+}
+.m19{
+    font-size: 5rem;
+}
+.m20{
+    display: flex;
+    flex-direction: column;
+
+    line-height: 1.2;
+
+}
+.m20 h4{
+    color: #000;
+    font-size: 1.8rem;
+}
+
+.m21{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+.m22{
+    letter-spacing: .4rem;
+}
+.m23{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 4rem;
+}

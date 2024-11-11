@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+:root{
+    --amarillo: #ffac2a;
+    --verde1: #004839;
+    --verde2: #00473f;
+    --verde3: #0e6d5a; 
+    --blanco: #f2f2f2;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: var(--verde1);
+}
+h2{
+    font-size: 2.2rem;
+    color: var(--verde1);
+}
+h3{
+    font-size: 1.9rem;
+    color: var(--verde1);
+}
+h4{
+    font-size: 1.6rem;
+    color: var(--verde1);
+}
+h5{
+    font-size: 1.3rem;
+    color: var(--verde1);
+}
+h6{
+    font-size: 1rem;
+    color: var(--verde1);
+}
+p{
+    font-size: .8rem;
+    color: var(--verde1);
+}
+
+.btn-principal{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--verde1);
+    background-color: var(--amarillo);
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+.btn-principal:hover{
+    color: var(--amarillo);
+    background-color: var(--blanco);
+    border: 1px solid var(--amarillo);
+}
+.btn-secundario{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--verde1);
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: 1px solid var(--verde1);
+}
+.btn-secundario:hover{
+    color: var(--blanco);
+    background-color: var(--verde3);
+}
+a{
+    text-decoration: none;
+    color: var(--verde1);
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #f2f6f5;
+}
+
+.icon{
+    width: 35px;
+}
+
+.icon1{
+    width: 16px;
+
+}
+.icon2{
+    width: 45px;
+}
+/* ================== */
+/* HEADER */
+/* ================== */
+header{
+    display: flex;
+    justify-content: center;
+
+    height: 10vh;
+}
+.he1{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.he2 h1{
+    font-size: 2rem;
+}
+.he3{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+
+    
+}
+.he4{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+
+
+/* ================== */
+/* ================== */
+
+
+
+
+
+
+
+/* ================== */
+/* FOOTER */
+/* ================== */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--verde2);
+}
+footer h1, footer a, footer p, footer h3{
+    color: var(--blanco);
+}
+
+footer h1{
+    font-size: 1.2rem;
+}
+footer h3{
+    font-size: 1rem;
+}
+.fo1{
+    height: 30vh;
+    width: 90vw;
+
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+.fo4{
+    padding-bottom: 10px;
+}
+.fo5{
+    padding-bottom: 3vh;
+}
+.fo6{
+    display: flex;
+}
+.fo6 p{
+    padding-left: 10px;
+}
+.fo3{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+/* ================== */
+/* ================== */

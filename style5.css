@@ -1,0 +1,150 @@
+.m1 {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(imagenes/vasofrutas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.m1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.m1 > * {
+    position: relative;
+    z-index: 2; 
+}
+
+.m2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.m2 h1, .m1 h2{
+    color: var(--blanco);
+}
+.m2 h1{
+    font-size: 5rem;
+}
+.m3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 0;
+}
+.m4{
+    width: 70vw;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 5vw;
+}
+.m5{
+    width: 30vw;
+}
+.m6{
+    height: 40vh;
+    width: 30vw;
+
+    background-image: url(imagenes/maracuya.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m7{
+    height: 40vh;
+    width: 30vw;
+
+    background-image: url(imagenes/pimientorojo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m8{
+    height: 40vh;
+    width: 30vw;
+
+    background-image: url(imagenes/mora\ azul.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m9{
+    height: 40vh;
+    width: 30vw;
+
+    background-image: url(imagenes/mangofresa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m10{
+    height: 40vh;
+    width: 30vw;
+
+    background-image: url(imagenes/jalapeño.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m11{
+    height: 40vh;
+    width: 30vw;
+
+    background-image: url(imagenes/ponchefrutas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul, li{
+    color: var(--verde1);
+
+    font-size: 1.2rem;
+}
+.m12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 0;
+}
+.m13{
+    display: flex;
+    flex-direction: row;
+
+    gap: 5rem;
+
+}
+.m14{
+    width: 40vw;
+}
+.m15{
+    width: 40vw;
+    height: 50vh;
+
+    background-image: url(imagenes/salsas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m16{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
